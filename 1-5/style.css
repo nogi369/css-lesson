@@ -1,0 +1,111 @@
+/* セレクタ */
+
+/* 要素セレクタ */
+/* p {
+  color: red;
+} */
+
+/* idセレクタ */
+#sample {
+  color: blue;
+}
+
+/* classセレクタ */
+.sample {
+  color: green;
+}
+
+/* 全称セレクタ */
+/* * {
+  color: purple;
+} */
+
+/* 子孫セレクタ */
+/* div span {
+  color: red;
+} */
+
+/* 子セレクタ */
+/* div > span {
+  color: red;
+} */
+
+/* 隣接セレクタ */
+/* p + span {
+  color: red;
+} */
+
+/* 複数セレクタ */
+/* p,
+span {
+  color: red;
+} */
+
+/* 要素:first-child */
+/* p:first-child {
+  color: red;
+} */
+
+/* 要素:first-of-type */
+/* p:first-of-type {
+  color: red;
+} */
+/* 要素:last-child */
+/* p:last-child {
+  color: red;
+} */
+/* 要素:last-of-type */
+/* p:last-of-type {
+  color: red;
+} */
+/* 要素:nth-child(n) */
+/* p:nth-child(3) {
+  color: red;
+} */
+/* 階層が同じ要素の中で3の倍数に適用:nth-child(3n) */
+/* p:nth-child(3n) {
+  color: red;
+} */
+/* 階層が同じ要素の中で3の倍数-1に適用:nth-child(3n-1) */
+/* p:nth-child(3n-1) {
+  color: red;
+} */
+/* 階層が同じ要素の中で3番目以降全てに適用:nth-child(n+3) */
+/* p:nth-child(n + 3) {
+  color: red;
+} */
+/* 要素:nth-of-type(n) */
+/* p:nth-of-type(3) {
+  color: red;
+} */
+/* 指定要素の中で3の倍数に適用:nth-of-type(3n) */
+/* p:nth-of-type(3n) {
+  color: red;
+} */
+/* 指定要素の中で3の倍数-1に適用:nth-of-type(3n-1) */
+/* p:nth-of-type(3n-1) {
+  color: red;
+} */
+/* 指定要素の中で3番目以降全てに適用:nth-of-type(n+3) */
+/* p:nth-of-type(n + 3) {
+  color: red;
+} */
+/* 問題 */
+* {
+  line-height: 1;
+}
+
+.number__child {
+  padding-left: 40px;
+}
+
+.number__parent:nth-of-type(3n) {
+  color: red;
+}
+.number__child:nth-of-type(n + 2) {
+  color: blue;
+}
+/* 自解 */
+/* .number__child:nth-child(n + 2) {
+  color: blue;
+} */
