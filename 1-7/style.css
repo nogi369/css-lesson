@@ -1,0 +1,23 @@
+/* ブロック要素 */
+/* div {
+  background-color: red;
+} */
+
+/* インライン要素 */
+/* span {
+  background-color: red;
+} */
+
+/* displayプロパティ */
+.example1 {
+  display: inline;
+}
+
+.example2 {
+  display: block;
+}
+
+.example3,
+.example4 {
+  display: inline-block;
+}
