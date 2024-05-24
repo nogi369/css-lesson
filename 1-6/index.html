@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1-6</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- インライン指定はid指定やclass指定よりも優先される。 -->
+    <!-- <p id="blue" class="purple" style="color: red">サンプルテキスト</p> -->
+
+    <!-- id指定はclass指定や要素指定よりも優先される。 -->
+    <!-- <p id="blue" class="red">サンプルテキスト</p> -->
+
+    <!-- 属性セレクタ指定は、属性指定よりも優先される。 -->
+    <!-- <p class="">サンプルテキスト</p> -->
+
+    <!-- 属性指定は、擬似要素指定と優先度点数が同点のため後に記述する物が上書きする。 -->
+    <!-- <p class="">サンプルテキスト</p> -->
+
+    <!-- !importantは最大の優先度となる -->
+    <!-- <p id="blue" class="purple" style="color: red">サンプルテキスト</p> -->
+
+    <!-- 優先度の計算 -->
+    <div class="contain">
+      <h1 class="contain__ttl">サンプルタイトル</h1>
+    </div>
+  </body>
+</html>

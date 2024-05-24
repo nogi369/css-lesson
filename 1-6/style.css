@@ -1,0 +1,69 @@
+/* インライン */
+/* #bue {
+  color: blue;
+}
+
+.purple {
+  color: purple;
+}
+
+p {
+  color: black;
+} */
+
+/* id */
+/* #blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+p {
+  color: purple;
+} */
+
+/* 属性セレクタ指定 */
+/* p[class] {
+  color: red;
+}
+
+p {
+  color: blue;
+} */
+
+/* 属性指定 */
+/* p:first-child {
+  color: blue;
+}
+
+p[class] {
+  color: red;
+}
+
+* {
+  color: black;
+} */
+
+/* !important */
+/* p {
+  color: black !important;
+}
+
+#blue {
+  color: blue;
+}
+
+.purple {
+  color: purple;
+} */
+
+/* 優先度の計算 */
+div.contain h1.contain__ttl {
+  color: red;
+}
+
+.contain .contain__ttl {
+  color: blue;
+}
