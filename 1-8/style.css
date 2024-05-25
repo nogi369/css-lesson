@@ -1,0 +1,69 @@
+/* カラーネーム */
+/* .text {
+  color: red;
+} */
+
+/* カラーコード */
+.text {
+  /* color: #ff0000; */
+}
+
+/* RGB */
+.text {
+  /* color: rgb(255, 0, 0); */
+}
+
+/* RGBA */
+/* .text {
+  color: rgba(255, 0, 0, 0.5);
+} */
+
+/* 文字の大きさ */
+
+/* 絶対値 */
+/* .text {
+  font-size: 16px;
+} */
+
+/* 相対値 */
+/* .text1 {
+  font-size: 16px;
+}
+.text2 {
+  font-size: 50%;
+} */
+
+/* emで指定 */
+/* .text1 {
+  font-size: 16px;
+}
+.text2 {
+  font-size: 0.5em;
+} */
+
+/* remで指定 */
+/* .text1 {
+  font-size: 16px;
+}
+.text2 {
+  font-size: 2rem;
+} */
+
+/* 文字の太さ */
+/* .text {
+  font-weight: bold;
+} */
+
+/* 文字を斜めにする */
+/* .text {
+  font-style: italic;
+} */
+
+/* 文字に線をつける */
+/* .text {
+  text-decoration: underline;
+} */
+
+.text {
+  font-family: "Times New Roman", "游ゴシック", sans-serif;
+}
