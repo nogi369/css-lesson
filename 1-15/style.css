@@ -1,0 +1,22 @@
+/* 要素に対する影 */
+/* 右に5px、下に5px、ぼかし距離を3px、色は黒の影を付ける例 */
+/* div {
+  box-shadow: 5px 5px 3px #000;
+  background: #ff0000;
+  width: 300px;
+  height: 300px;
+} */
+
+/* 文字に対する影 */
+/* 右に2px、下に2px、ぼかし距離を4px、色は黒の影を付ける例 */
+/* p {
+  text-shadow: 2px 2px 4px #000;
+} */
+
+/* 問題 */
+.practice {
+  width: 200px;
+  height: 200px;
+  background: #ff0000;
+  box-shadow: 10px 10px 0 #000;
+}
