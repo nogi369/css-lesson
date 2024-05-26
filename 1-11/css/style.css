@@ -1,0 +1,63 @@
+/* 背景色 */
+/* body {
+  background-color: #ff0000;
+} */
+
+/* グラデーション */
+/* .gradation__bg {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(#ff34ff, #8646ff);
+} */
+
+/* 角度を変更する */
+/* .gradation__bg {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(90deg, #ff34ff, #8646ff);
+} */
+
+/* .gradation__bg {
+  width: 100%;
+  height: 700px;
+  background: radial-gradient(#ff34ff, #8646ff);
+} */
+
+/* 背景画像 */
+/* body { */
+/* 背景画像 */
+/* background-image: url("../img/red.jpg"); */
+/* 背景画像サイズ */
+/* background-size: 300px 100px; */
+/* 背景画像の繰り返し */
+/* background-repeat: no-repeat; */
+/* 背景画像の位置 */
+/* background-position: center; */
+/* } */
+
+/* ショートハンド */
+/* body {
+  background: #f2f2f2 url("../img/red.jpg") no-repeat center / 300px 150px;
+} */
+
+/* 問題 */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* ・画像を挿入する
+・画像を幅いっぱいに広げる */
+
+.bg {
+  background: url("../img/firstview.jpg") no-repeat bottom;
+  background-size: cover;
+
+  /* 高さを指定 */
+  height: 700px;
+  /* width: 100%; */
+}
+
+/* 回答との違い */
+/* ・width: 100% を指定したのがダメだった */
+/* ・URLをダブルクォートで囲ってなかったのがダメだった */
