@@ -1,0 +1,29 @@
+/* 枠線 */
+/* 1本線・太さ2px・赤の枠線を引く */
+/* p {
+  border: solid 2px #ff0000;
+} */
+
+/* 角丸 */
+/* div {
+  width: 200px;
+  height: 200px;
+  background: #ff0000;
+  border-radius: 30px;
+} */
+
+/* 正円 */
+/* .circle {
+  width: 200px;
+  height: 200px;
+  background: red;
+  border-radius: 50%;
+} */
+
+/* 問題 */
+.circle {
+  width: 200px;
+  height: 200px;
+  background: red;
+  border-radius: 60px 0 60px 0;
+}
