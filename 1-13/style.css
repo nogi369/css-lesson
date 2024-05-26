@@ -1,0 +1,61 @@
+/* margin(外側の余白) */
+/* h1 {
+  background: #ff0000;
+  margin: 30px;
+}
+p {
+  background: #000000;
+  color: #fff;
+} */
+
+/* padding(内側の余白) */
+/* h1 {
+  background: #ff0000;
+  padding: 30px;
+} */
+
+/* box-sizing */
+/* .box-sizing {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  padding: 30px;
+  border: 20px solid blue;
+  margin: 100px auto 0;
+}
+.content-box {
+  box-sizing: content-box;
+}
+.border-box {
+  box-sizing: border-box;
+} */
+
+/* 中央揃え */
+/* .margin-center {
+  width: 300px;
+  background-color: red;
+  margin: 0px auto;
+} */
+/* 右揃え(右に寄せる) */
+/* .margin-right {
+  width: 300px;
+  background-color: blue;
+  color: white;
+  margin: 0px 0px 0px auto;
+} */
+
+/* 問題 */
+/* .box {
+  width: 400px;
+  height: 200px;
+  background-color: red;
+  margin: 0px auto;
+  padding: 50px 0;
+} */
+/* 模範解答 */
+.box {
+  width: 400px;
+  height: 200px;
+  margin: 50px auto;
+  background: red;
+}
