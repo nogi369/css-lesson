@@ -1,0 +1,59 @@
+/* body {
+  width: 360px;
+  margin: 0 auto;
+} */
+
+/* 全体を覆う箱 */
+.card {
+  width: 360px;
+  /* margin: 上 左右 下; */
+  margin: 100px auto 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 写真 */
+.card__img img {
+  width: 100%;
+}
+
+/* 写真の下の箱 */
+.card__content {
+  /* 「カテゴリー」の上余白：15px と 指定なし：25px */
+  padding: 15px 25px;
+}
+
+/* カテゴリー */
+.card__content-cat {
+  /* 要素の文字数に応じて幅が変更されるためにinline-blockを指定 */
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 14px;
+  background: #008888;
+  color: #fff;
+}
+
+/* 文言 */
+.card__content-ttl {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* pタグを囲う箱 */
+.card__content-tag {
+  font-size: 14px;
+  text-align: right;
+}
+
+/* #朝ごはん */
+.card__content-tag-item {
+  display: inline-block;
+  color: #008888;
+}
+
+/* 2021/01/01 */
+.card__content-tag-item--last {
+  display: inline-block;
+  margin-left: 20px;
+  color: #888888;
+}
