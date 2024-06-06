@@ -1,0 +1,17 @@
+.flex {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+  flex-wrap: wrap-reverse;
+  width: 900px;
+  background-color: yellow;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: red;
+  font-size: 32px;
+}
