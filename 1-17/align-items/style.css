@@ -1,0 +1,17 @@
+.flex {
+  display: flex;
+  /* align-items: stretch; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  align-items: center;
+  height: 200px;
+  background-color: yellow;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  background-color: red;
+  font-size: 32px;
+}
