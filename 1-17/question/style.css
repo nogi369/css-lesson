@@ -1,23 +1,13 @@
 /* Flexbox */
 .flex {
   display: flex;
-  /* 追記 */
   justify-content: space-between;
   margin-top: 100px;
 }
 
-/* .cardを覆う箱は不要だった */
-/* .box {
-  width: 30%;
-} */
-
 /* 全体を覆う箱 */
 .card {
-  /* 360pxの代わりに30%を指定する必要があった */
-  /* width: 360px; */
   width: 30%;
-  /* 削除 */
-  /* margin: 100px auto 0; */
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
