@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.box {
+  border: solid 1px black;
+  background-color: red;
+  font-size: 32px;
+  width: 100px;
+  height: 100px;
+}
