@@ -1,0 +1,31 @@
+.parents {
+  position: relative;
+}
+
+.first {
+  position: absolute;
+  background-color: #2600ff;
+  z-index: -10;
+}
+
+.second {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background-color: #fdff00;
+  z-index: 0;
+}
+
+.third {
+  position: relative;
+  top: 80px;
+  left: 80px;
+  background-color: #ff0000;
+  z-index: 10;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  color: #ffffff;
+}
