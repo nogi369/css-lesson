@@ -1,0 +1,27 @@
+.card {
+  padding: 60px 0;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: flex-start; */
+  position: relative;
+}
+
+.card__img {
+  width: 50%;
+}
+
+.card__img img {
+  width: 100%;
+}
+
+.card__content {
+  /* position: relative; */
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.card__content-ttl {
+  font-size: 50px;
+}
