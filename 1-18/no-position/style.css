@@ -1,0 +1,19 @@
+.about {
+  background-color: #ebebeb;
+  padding: 60px 0;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about__img img {
+  width: 100%;
+}
+
+.about__img {
+  /* ネガティブマージン */
+  margin-top: -80px;
+  /* position: relative;
+  top: -80px; */
+  width: 40%;
+}
