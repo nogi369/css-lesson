@@ -1,0 +1,14 @@
+#fixed {
+  position: fixed;
+  /* 基準を画面の上に */
+  top: 0;
+  left: 0;
+
+  /* 余白が入らないように */
+  margin: 0;
+
+  /* 装飾 */
+  width: 100%;
+  background-color: #ffc778;
+  color: white;
+}
