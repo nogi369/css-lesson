@@ -1,0 +1,47 @@
+.grid__parent {
+  display: grid;
+  background-color: #c0c0c0;
+  /* 横のライン(行)を設定する */
+  grid-template-rows: 100px 300px 300px;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.box1 {
+  background: #004e4e;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box2 {
+  background: #008888;
+  grid-column: 1/2;
+  grid-row: 2/4;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box3 {
+  background: #049fb3;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box4 {
+  background: #55bbbb;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box5 {
+  background: #8aacac;
+  grid-column: 2/4;
+  grid-row: 3/4;
+  text-align: center;
+  color: #ffffff;
+}
