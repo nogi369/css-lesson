@@ -1,0 +1,15 @@
+.float {
+  max-width: 760px;
+  width: 100%;
+  margin: 60px auto;
+}
+
+.float__img {
+  width: 400px;
+  /* 箱の大きさ調整 */
+  float: left;
+}
+
+img {
+  width: 100%;
+}
