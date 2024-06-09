@@ -1,0 +1,20 @@
+.red-box {
+  background-color: #ff0000;
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+
+.green-box {
+  background-color: #00ff00;
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+
+.blue-box {
+  background-color: #0000ff;
+  width: 150px;
+  height: 150px;
+  float: right;
+}

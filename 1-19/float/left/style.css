@@ -1,0 +1,32 @@
+/* 相違点 */
+/* CSSを指定する順番 => 背景色から
+要素のサイズ => 150px
+背景色 => カラーコード */
+
+.red-box {
+  background-color: #ff0000;
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+.green-box {
+  background-color: #00ff00;
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+.blue-box {
+  background-color: #0000ff;
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+/* Clearfix for containing floats */
+body::after {
+  content: "";
+  display: table;
+  clear: both;
+}
