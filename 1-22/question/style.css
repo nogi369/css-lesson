@@ -1,0 +1,39 @@
+.inquiry__btn {
+  position: relative;
+  background-color: #55bbbb;
+  width: 200px;
+  display: block;
+  padding: 18px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 100px auto;
+}
+
+.inquiry__btn::before {
+  position: absolute;
+  content: "";
+  background: url(img/mail.svg) no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  transform: translate(0, -50%);
+  top: 50%;
+  left: 15px;
+}
+
+.inquiry__btn::after {
+  position: absolute;
+  content: "";
+  background: url(img/download__icon.svg) no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  /* transform: translateY(-50%); */
+  transform: translateY(-50%) rotate(-90deg);
+  top: 50%;
+  right: 15px;
+}
