@@ -1,0 +1,16 @@
+.parent {
+  position: relative;
+  background: black;
+  width: 300px;
+  height: 300px;
+  color: white;
+}
+
+.child {
+  position: absolute;
+  /* positionのtopとleftだけでは中央配置にならない */
+  top: 50%;
+  left: 50%;
+  /* 左上に移動 */
+  transform: translate(-50%, -50%);
+}

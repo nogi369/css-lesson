@@ -1,0 +1,7 @@
+.item {
+  background: #ff0000;
+  height: 100px;
+  width: 100px;
+  /* transform: translate(x,y); */
+  transform: translate(30px, 50px);
+}
