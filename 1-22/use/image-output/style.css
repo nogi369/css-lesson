@@ -1,0 +1,19 @@
+/* contentで画像出力 */
+/* .ttl::before {
+  content: url(../image-output/img/inspiration.svg);
+} */
+
+/* backgroundで画像出力 */
+.ttl::before {
+  content: "";
+  background: url(../image-output/img/inspiration.svg);
+  /* 背景領域を完全に覆う最小サイズ */
+  /* h2要素のコンテンツからはみ出さないように縮小 */
+  background-size: cover;
+  /* 行中のテキストや画像などの内容の上下方向の揃え位置を指定する */
+  /* middle => 中央揃え */
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
