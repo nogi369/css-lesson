@@ -1,0 +1,4 @@
+p::before {
+  content: "COACH";
+  color: #ff0000;
+}

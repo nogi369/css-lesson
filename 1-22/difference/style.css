@@ -1,0 +1,11 @@
+/* 要素の直前に入れられる */
+p::before {
+  content: "前につく";
+  color: red;
+}
+
+/* 要素の直後に入れられる */
+p::after {
+  content: "後につく";
+  color: blue;
+}

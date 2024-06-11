@@ -1,0 +1,4 @@
+p::after {
+  content: "TECH";
+  color: #ff0000;
+}
