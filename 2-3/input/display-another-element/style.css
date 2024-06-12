@@ -1,0 +1,14 @@
+/* PC表示時、要素2を非表示 */
+.item2 {
+  display: none;
+}
+
+/* 幅768pxまで => item2を表示、それ以上の幅はitem1を表示 */
+@media screen and (max-width: 768px) {
+  .item1 {
+    display: none;
+  }
+  .item2 {
+    display: block;
+  }
+}
