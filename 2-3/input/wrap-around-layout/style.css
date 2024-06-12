@@ -1,0 +1,24 @@
+.parent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #dcdcdc;
+}
+
+.child {
+  width: 33%;
+  height: 200px;
+  background: #ff0000;
+}
+
+@media screen and (max-width: 768px) {
+  .child {
+    width: 49%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .child {
+    width: 100%;
+  }
+}
