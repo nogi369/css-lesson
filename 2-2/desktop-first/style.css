@@ -1,0 +1,17 @@
+p {
+  color: black;
+}
+
+/* 幅768px以下(iPad Miniなど) */
+@media screen and (max-width: 768px) {
+  p {
+    color: blue;
+  }
+}
+
+/* 幅480px以下(iPhone XRなど) */
+@media screen and (max-width: 480px) {
+  p {
+    color: red;
+  }
+}

@@ -1,0 +1,17 @@
+p {
+  color: black;
+}
+
+/* 幅481px以上(iPad Miniなど) */
+@media screen and (min-width: 481px) {
+  p {
+    color: red;
+  }
+}
+
+/* 幅769px以上(PC) */
+@media screen and (min-width: 769px) {
+  p {
+    color: blue;
+  }
+}
