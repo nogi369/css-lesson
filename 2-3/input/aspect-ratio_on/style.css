@@ -1,0 +1,19 @@
+.item {
+  width: 100%;
+  position: relative;
+}
+
+.item::before {
+  content: "";
+  display: block;
+  padding-top: 75%;
+}
+
+.item-content {
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
