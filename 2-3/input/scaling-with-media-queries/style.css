@@ -1,0 +1,15 @@
+.item {
+  font-size: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .item {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .item {
+    font-size: 12px;
+  }
+}
