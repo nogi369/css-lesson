@@ -1,0 +1,121 @@
+/* .parent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #dcdcdc;
+} */
+
+.wrap {
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #dcdcdc; */
+  /* 2-3 解答 */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex__item {
+  /* max-width: 1200px; */
+  /* 1-17 解答 */
+  display: flex;
+  justify-content: space-between;
+  /* 1-17: 上余白を任意で追加 => 2-3: .wrapに指定がはいるため不要になる */
+  /* margin-top: 100px; */
+  /* 2-3 解答 */
+  flex-wrap: wrap;
+}
+
+/* .practice__card {
+  width: 30%;
+} */
+
+.practice__card {
+  /* 1-16: 記述 */
+  /* width: 360px; */
+  /* margin: 100px auto 0; */
+  /* 1-17: 上記marginはflexコンテナ化によって修正が入る */
+  /* width: 30%; は、2-3で修正が入る */
+  /* width: 30%; */
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  /* 2-3 解答 */
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* 2-3 解答 */
+.practice__card:last-child {
+  margin-bottom: 0;
+}
+
+/* .card__img {
+  margin-bottom: 5px;
+} */
+
+.card__img img {
+  width: 100%;
+}
+
+.card__content {
+  padding: 15px 25px;
+}
+
+.card__cat {
+  font-size: 14px;
+  background-color: #008888;
+  /* display: inline; */
+  /* margin-top: 5px; */
+  /* padding: 10px; */
+  color: #fff;
+  /* 1-16 解答 */
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.card__ttl {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.tag {
+  /* margin-bottom: 15px; */
+  /* display: flex;
+  justify-content: flex-end; */
+  /* 1-16 解答 */
+  font-size: 14px;
+  text-align: right;
+}
+
+.card__tag {
+  /* font-size: 14px; */
+  /* display: inline; */
+  color: #008888;
+  /* 1-16 解答 */
+  display: inline-block;
+}
+
+.card__date {
+  /* font-size: 14px; */
+  margin-left: 20px;
+  color: #888888;
+  /* display: inline; */
+  /* 1-16 解答 */
+  display: inline-block;
+}
+
+/* レスポンシブ (768px以上)*/
+@media screen and (min-width: 768px) {
+  .practice__card {
+    width: 45%;
+  }
+}
+
+/* レスポンシブ (1000px以上)*/
+@media screen and (min-width: 1000px) {
+  .practice__card {
+    width: 30%;
+    /* 2-3 解答 */
+    margin-bottom: 0;
+  }
+}
