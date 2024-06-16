@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.header-ttl {
+  font-size: 32px;
+  /* widthの値の書き間違いに注意する => 「px」＝＞ 「%」 */
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  list-style: none;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 50px;
+}

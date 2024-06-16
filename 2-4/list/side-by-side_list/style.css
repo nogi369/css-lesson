@@ -1,0 +1,21 @@
+.list-wrapper {
+  font-weight: bold;
+  color: #999;
+}
+
+.list {
+  display: flex;
+  align-items: baseline;
+  padding: 10px 6px;
+  list-style: none;
+}
+
+.item:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+.item:first-of-type {
+  line-height: 1.4;
+  color: #555;
+  border-bottom: 1.5px solid #d7b071;
+}

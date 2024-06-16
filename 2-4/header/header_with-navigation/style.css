@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  /* 横並び */
+  display: flex;
+  /* 水平方向 */
+  justify-content: space-between;
+  /* 垂直方向 */
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  background-color: #000;
+  color: #fff;
+}
+
+.header-ttl {
+  font-size: 24px;
+  width: 80px;
+}
+
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+  /* リストの「・」を消す */
+  list-style: none;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}

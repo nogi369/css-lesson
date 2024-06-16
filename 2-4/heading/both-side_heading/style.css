@@ -1,0 +1,28 @@
+.title {
+  position: relative;
+  display: inline-block;
+  padding: 0 55px;
+}
+
+/* 前後共通 */
+/* 下記コードで初期位置に表示して、 */
+.title::before,
+.title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: black;
+}
+
+/* beforeを左に移動する */
+.title::before {
+  left: 0;
+}
+
+/* afterを右に移動する */
+.title::after {
+  right: 0;
+}
